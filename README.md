@@ -2,15 +2,17 @@
 
 # How to run 
 ### STEPS:
- clone the repository
-
-git clonehttps://github.com/Vinitladse/Build-a-Medical-cahatbot-with-LLMs-Langchain-Pincone-flask-AWS.git
+```bash
+git clone https://github.com/Vinitladse/Build-a-Medical-cahatbot-with-LLMs-Langchain-Pincone-flask-AWS.git
+```
 ### step 01 - Create a conda environment after opening the repository 
-
+```bash
 conda create -n medibot python=3.10 -y
-
-
+```
+```bash
+conda activate medibot
+```
 ### step 2 - install the requirements 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
